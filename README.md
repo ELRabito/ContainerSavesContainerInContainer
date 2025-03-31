@@ -1,5 +1,5 @@
 This will fix the issue that containers with containers inside (backpack inside backpack etc) inside containers/vehicles are vanishing on restart.
-Warning: If you install this on a existing server you need to wipe container and vehicle table, otherwise your server will not start!
+Warning: If you install this on a server with existing data in the container and vehicle table,  you need to wipe the tables, otherwise your server will not start!
 
 
 Before restart and putting the backpack into the vehicle.
