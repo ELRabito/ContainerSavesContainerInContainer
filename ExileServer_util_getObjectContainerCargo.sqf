@@ -14,10 +14,10 @@ private _allContainers = everyContainer _vehicle;
 if !(_allContainers isEqualTo []) then
 {
 	{
-		_containerType = _x select 0;
-		_containerObject = _x select 1;
-		_temp = [];
-		_temp2 = [];
+		private _containerType = _x select 0;
+		private _containerObject = _x select 1;
+		private _temp = [];
+		private _temp2 = [];
 		_temp pushBack _containerType;
 		_temp pushBack (weaponsItemsCargo _containerObject); 
 		_temp pushBack (magazinesAmmoCargo _containerObject);
