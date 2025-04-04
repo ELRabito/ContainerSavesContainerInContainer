@@ -21,6 +21,7 @@ if ((typeName _containers) isEqualTo "ARRAY") then
 			private _magazines = _x select 2;
 			private _items = _x select 3;
 			private _ContainersInContainers = _x select 4;
+			if(isNil "_ContainersInContainers") then {_ContainersInContainers = []};
 			private _type = [_container] call BIS_fnc_itemType;
 			if((_type select 1) isEqualTo "Backpack")then
 			{
