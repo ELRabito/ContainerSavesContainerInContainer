@@ -3,8 +3,7 @@
 
 This will fix the issue that containers with containers inside (backpack inside backpack etc) inside containers/vehicles are vanishing on restart.
 
-**Warning**: Since the data structure changes you need to either clear the current container and vehicle table, or set the cargo_container field to an empty array [] for each vehicle/container.
-Otherwise your server will not start, so Imho a change best situated for a wipe!
+**Warning**: Since there could be issues while loading containers/vehicles, test it before you apply it to a live server and make backups!
 
 Before restart and putting the backpack into the vehicle.
 ![20EA98~1](https://github.com/user-attachments/assets/29401967-e8a1-4662-8782-1251f5587c7b)
